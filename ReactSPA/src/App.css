@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: grey ;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.seafoam{
+  background-color: #a0d6b4 !important;
+}
+
+.aquamarine{
+  background-color: aquamarine !important;
+}
+
+.pageHeader{
+  color: white;
+  background-color: #505050;
+}
+
+.brown{
+  background-color:#593028;
+}

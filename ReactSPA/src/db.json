@@ -1,0 +1,26 @@
+{
+    "books":[
+        {
+            "id":1,
+            "img":"images/1984.jpg",
+            "title":"1984",
+            "pages":200,
+            "genre":"Dystopian"
+        },
+        {
+            "id":2,
+            "img":"images/1984.jpg",
+            "title":"Good Omens",
+            "pages":300,
+            "genre":"Comedy"
+        },
+        {
+            "id":3,
+            "img":"images/1984.jpg",
+            "title":"Frankenstein",
+            "pages":150,
+            "genre":"Horror"
+        }
+    ]
+
+}
