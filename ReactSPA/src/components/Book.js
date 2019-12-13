@@ -4,7 +4,6 @@ import * as api from './api'
 
 function Book({book}) {
 
-    var imgurl = require
     return (
         <div class = "container">
             <div class="row">

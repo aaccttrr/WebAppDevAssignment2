@@ -11,9 +11,11 @@ const app = express();
 
 const port = 8080;
 
-app.use('/api/books', router)
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
+
+app.use('/api/books', router)
+
 
 app.listen(port, () => {
     console.info(`Server running at ${port}`);

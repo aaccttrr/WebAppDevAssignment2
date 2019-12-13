@@ -13,7 +13,7 @@ class App extends Component {
     super(props)
   
     this.state = {
-       
+
     }
   }
   
@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 class="">Library App</h1>
-         <BrowserRouter>  
+         {/* <BrowserRouter>  
           <Navbar bg="light" expand="lg">
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -35,12 +35,12 @@ class App extends Component {
                   <Nav.Link href="#about">About</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
-            </Navbar>
+            </Navbar> */}
           <div class="m-5">
             <AddBook refresh={this.refresh}/>
           </div>
           <BookList refresh={this.refresh}/>
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
       </div>
     );
   }

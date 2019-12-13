@@ -29,21 +29,21 @@ class StubAPI{
         // ]
     }
 
-    addBook(id, title, pages, genre, popularity, callback) {
-        let book = {
-          "id": id,
-          "title": title,
-          "pages":pages,
-          "genre":genre,
-          "popularity":popularity
-        }
+    // addBook(id, title, pages, genre, popularity, callback) {
+    //     let book = {
+    //       "id": id,
+    //       "title": title,
+    //       "pages":pages,
+    //       "genre":genre,
+    //       "popularity":popularity
+    //     }
     
-        this.books.push(book);
-        console.log(this.books)
+    //     this.books.push(book);
+    //     console.log(this.books)
         
 
-        if (callback) callback();
-      }
+    //     if (callback) callback();
+    //   }
 
 //       deleteBook(id){
 //         let book = {

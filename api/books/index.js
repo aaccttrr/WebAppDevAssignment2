@@ -16,6 +16,7 @@ router.get('/',async(req,res)=>{
 
 //Create a book
 router.post('/',asyncHandler(async (req,res)=>{
+    console.log(req.body)
     const book = await Book.create(req.body);
     res.status(201).json(book);
 }));

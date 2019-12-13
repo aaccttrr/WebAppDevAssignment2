@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 export const addBookApi = (book) =>{
+    console.log(book)
     return axios.post('/api/books',book)
     .then(resp => resp.data);
 };

@@ -19,6 +19,12 @@ const books = [{
     'genre':'Horror',
     'popularity':'1',
     },
+    {
+    'title':'Lord of the Rings',
+    'pages':'600',
+    'genre':'Adventure',
+    'popularity':'1',
+    },
 ];
 
 export default async function loadBooks(){

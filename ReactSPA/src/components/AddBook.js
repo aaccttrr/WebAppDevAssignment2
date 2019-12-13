@@ -43,16 +43,16 @@ class AddBook extends Component {
 
     createBook=(event)=>{
         event.preventDefault();
-        api.addBookApi(
-                    this.state.title,
-                    this.state.pages,
-                    this.state.genre,
-                    this.state.popularity,
-                    ()=> {
-          console.log(this.state.title,this.state.pages,this.state.genre,this.state.popularity)
-          this.props.refresh();
-        });
-      }
+        const book = {
+            title:this.state.title,
+            pages:this.state.pages,
+            genre:this.state.genre,
+            popularity:this.state.popularity,
+        }
+
+        api.addBookApi(book);
+        console.log(book)
+    }
 
     render() {
         return (
