@@ -32,11 +32,11 @@ and the application will open in your browser shortly. If it doesn't open automa
 ![data model](images/datamodel.png)
 ## UI Design.
 
-![](images/main.png)
+![](images/main.PNG)
 The main view of the page.
 
-![](images/addbook.png)
+![](images/addbook.PNG)
 The interface for adding a book.
 
-![](images/examplebook.png)
+![](images/examplebook.PNG)
 The display of a book in the library.
